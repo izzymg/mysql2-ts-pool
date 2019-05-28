@@ -6,6 +6,9 @@ This is a small TypeScript module that provides the following functions for prom
 
 * RowDataPacket: Object representing a row returned by the query. Can have any properties.
 * FieldPacket: Object containing db metadata.
+* OkPacket: Object containing information about the query.
+
+This module will simply typecast the results, so you must use the query for the data you expect. 
 
 ### `initPool(options: PoolOptions)`
 
