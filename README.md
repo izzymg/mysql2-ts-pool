@@ -20,19 +20,19 @@ Awaits `pool.end()`
 
 ### `async execFetch(options: QueryOptions)`
 
-Runs the [execute](https://www.npmjs.com/package/mysql2#using-prepared-statements) function, and returns an array of `RowDataPacket` and an array of `FieldPacket`. 
+Runs the [execute](https://www.npmjs.com/package/mysql2#using-prepared-statements) function, and returns a `RowDataPacket` array and a `FieldPacket` array. 
 
 ### `async execFetchOne(options: QueryOptions)`
 
-Runs the execute function, and returns a single `RowDataPacket` and an array of `FieldPacket`. 
+Runs the execute function, and returns a single `RowDataPacket` and a `FieldPacket` array. 
 
 ### `async queryFetch(options: QueryOptions)`
 
-Runs the query function, and returns an array of `RowDataPacket` and an array of `FieldPacket`. 
+Runs the query function, and returns a `RowDataPacket` array and a `FieldPacket` array. 
 
 ### `async queryFetchOne(options: QueryOptions)`
 
-Runs the query function, and returns a single `RowDataPacket` and an array of `FieldPacket`. 
+Runs the query function, and returns a single `RowDataPacket` and a `FieldPacket` array. 
 
 ### `async run(options: QueryOptions)`
 
