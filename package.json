@@ -12,7 +12,7 @@
     "typescript": "latest"
   },
   "scripts": {
-    "build-test": "tsc"
+    "build": "tsc"
   },
   "author": "izzymg",
   "license": "GPL-v3.0",
