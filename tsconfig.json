@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "sourceMap": false,
+      "outDir": "build/"
+  },
+  "files": [
+    "test.ts"
+  ]
+}

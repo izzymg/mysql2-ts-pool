@@ -1,0 +1,24 @@
+{
+  "name": "mysql2-ts-pool",
+  "version": "1.0.0",
+  "description": "Small TypeScript module for Mysql2 promise pools to provide functions with more predictable return types.",
+  "main": "index.ts",
+  "dependencies": {
+    "@types/node": "^12.0.2",
+    "@types/mysql2": "github:types/mysql2",
+    "mysql2": "^1.6.5"
+  },
+  "devDependencies": {
+    "tsc": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "build-test": "tsc"
+  },
+  "author": "izzymg",
+  "license": "GPL-v3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izzymg/mysql2-ts-pool.git"
+  }
+}
