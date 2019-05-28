@@ -9,7 +9,6 @@
     "mysql2": "^1.6.5"
   },
   "devDependencies": {
-    "tsc": "latest",
     "typescript": "latest"
   },
   "scripts": {
