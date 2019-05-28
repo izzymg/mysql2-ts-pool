@@ -2,8 +2,6 @@
 
 This is a small TypeScript module that provides the following functions for promise pools.
 
-TODO: finish this readme
-
 ##### Mysql2 definitions
 
 * RowDataPacket: Object representing a row returned by the query. Can have any properties.
