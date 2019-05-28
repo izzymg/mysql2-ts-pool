@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
       "module": "commonjs",
-      "sourceMap": false,
+      "sourceMap": true,
       "outDir": "build/"
   },
   "files": [
