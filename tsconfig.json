@@ -2,9 +2,8 @@
   "compilerOptions": {
       "module": "commonjs",
       "sourceMap": true,
-      "outDir": "build/"
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "declaration": true 
   },
-  "files": [
-    "test.ts"
-  ]
 }

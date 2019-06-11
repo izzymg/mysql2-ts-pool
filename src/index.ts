@@ -16,6 +16,13 @@ function initPool(options: mysql.PoolOptions) {
 }
 
 /**
+ * Returns the raw pool.
+*/
+function getPool() {
+  return pool;
+}
+
+/**
  * Awaits pool.end()
 */
 async function closePool() {
@@ -80,13 +87,6 @@ async function run(options: mysql.QueryOptions) {
   return {
     ok: <mysql.OkPacket>result[0],
   };
-}
-
-/**
- * Returns the raw pool.
-*/
-function getPool() {
-  return pool;
 }
 
 export default {

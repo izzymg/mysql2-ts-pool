@@ -1,6 +1,6 @@
-import * as sql from "."
+import sql from ".."
 import { strict as assert } from "assert"
-import * as mysql from "mysql2/promise";
+import { QueryError } from "mysql2/promise";
 
 async function test() {
 
@@ -61,7 +61,7 @@ async function test() {
   const { row: nullData } = await sql.queryFetchOne({ sql: "SELECT * FROM dogs_test WHERE id = 100" });
   assert(nullData == null, "Expected queryFetchOne() to return null");
 
-  let runErr: mysql.QueryError;
+  let runErr: QueryError;
 
   try {
     await sql.run({ sql: "SELEC * from fff" });
