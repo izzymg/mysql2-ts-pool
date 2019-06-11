@@ -82,7 +82,7 @@ async function run(options: mysql.QueryOptions) {
   };
 }
 
-export {
+export default {
   pool,
   initPool,
   closePool,
