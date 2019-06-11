@@ -1,6 +1,6 @@
 {
   "name": "mysql2-ts-pool",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Small TypeScript module for Mysql2 promise pools to provide functions with more predictable return types.",
   "main": "index.ts",
   "dependencies": {
