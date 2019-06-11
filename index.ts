@@ -82,10 +82,17 @@ async function run(options: mysql.QueryOptions) {
   };
 }
 
+/**
+ * Returns the raw pool.
+*/
+function getPool() {
+  return pool;
+}
+
 export default {
-  pool,
   initPool,
   closePool,
+  getPool,
   execFetch,
   execFetchOne,
   queryFetch,

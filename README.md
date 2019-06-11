@@ -39,6 +39,6 @@ Runs the query function, and returns a single `RowDataPacket` and a `FieldPacket
 Runs the query function, and returns a single `OkPacket` 
 
 
-### `pool`
+### `getPool()`
 
-Raw pool
+Returns raw pool
