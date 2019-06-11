@@ -6,4 +6,8 @@
       "rootDir": "./src",
       "declaration": true 
   },
+  "exclude": [
+    "./dist",
+    "./node_modules"
+  ]
 }
