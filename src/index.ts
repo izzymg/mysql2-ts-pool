@@ -9,7 +9,6 @@ let pool: mysql.Pool;
 
 /**
  * Creates the exported pool using opts.
- * @param { mysql.PoolOptions } opts PoolOptions 
 */
 function initPool(options: mysql.PoolOptions) {
   pool = mysql.createPool(options);
