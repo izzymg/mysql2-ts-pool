@@ -2,6 +2,12 @@
 
 This is a small TypeScript module that provides the following functions for promise pools.
 
+### Installation
+
+`npm i mysql2-ts-pool`
+
+https://www.npmjs.com/package/mysql2-ts-pool
+
 ##### Mysql2 definitions
 
 * RowDataPacket: Object representing a row returned by the query. Can have any properties.
