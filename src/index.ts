@@ -22,10 +22,10 @@ function getPool() {
 }
 
 /**
- * Awaits pool.end()
+ * pool.end()
 */
 async function closePool() {
-  await pool.end();
+  return pool.end();
 }
 
 /**
