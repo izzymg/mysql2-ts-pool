@@ -1,6 +1,6 @@
 # mysql2-ts-pool
 
-This is a small TypeScript module that provides the following functions for promise pools.
+This is a small MySQL2 TypeScript wrapper that provides useful functions for `promise pools`.
 
 ### Installation
 
